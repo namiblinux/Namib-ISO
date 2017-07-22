@@ -1422,7 +1422,7 @@ install_root(){
   # Clean up installation
   [[ -d ${MOUNTPOINT}/ninstaller ]] && rm -R ${MOUNTPOINT}/ninstaller 2>>/tmp/.errlog
   rm -rf ${MOUNTPOINT}/vomi 2>>/tmp/.errlog
-  rm -f ${MOUNTPOINT}/home/$ISO_USER/Desktop/ninstaller.desktop 2>>/tmp/.errlog
+  rm -f ${MOUNTPOINT}/home/$ISO_USER/Desktop/"Namib Installer.desktop" 2>>/tmp/.errlog
   rm -rf ${BYPASS} 2>>/tmp/.errlog
   rm -rf ${MOUNTPOINT}/source 2>>/tmp/.errlog
   rm -rf ${MOUNTPOINT}/src 2>>/tmp/.errlog
