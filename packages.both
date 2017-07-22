@@ -1,13 +1,17 @@
-# XORG
+####################
+## Namib Specific ##
+####################
+
+## XORG Package
 xorg-server
 xorg-xinit
 xorg-twm
 xterm
 
-# Sound
+## Sound
 alsa-utils
 
-# Video Drivers
+## Video Drivers
 mesa
 xf86-video-vmware
 xf86-video-ati
@@ -16,19 +20,93 @@ xf86-video-intel
 xf86-video-nouveau
 xf86-video-openchrome
 
-# VirtualBox Guest
-virtualbox-guest-modules-arch
-virtualbox-guest-utils
+## Networking
+networkmanager
+networkmanager-dispatcher-ntpd
+network-manager-applet
+wireless_tools
+wpa_supplicant
 
-# Mate Desktop Environment
+## system
+base-devel
+xf86-input-keyboard
+xf86-input-synaptics
+xf86-input-vmmouse
+xf86-input-mouse
+laptop-detect
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+mlocate
+reflector
+
+## Permissions
+accountsservice
+polkit-gnome
+gnome-keyring
+
+## Themes
+numix-gtk-theme
+arc-icon-theme
+
+## Fonts
+ttf-dejavu
+ttf-liberation
+cantarell-fonts
+
+## Environment
+bash-completion
+ncdu
+speedtest-cli
+pulseaudio
+pulseaudio-alsa
+pavucontrol
+volumeicon
+
+# GUI configuration
 mate
 mate-extra
 
-# ArchISO Base
+##File Management
+xdg-user-dirs
+gvfs
+gamin
+tumbler
+
+## Applications
+clementine
+firefox
+gimp
+gparted
+libreoffice-still
+p7zip
+parcellite
+tracker
+dosfstools
+ntfs-3g
+vlc
+
+## VirtualBox Guest
+virtualbox-guest-modules-arch
+virtualbox-guest-utils
+
+##packages for installer
+#hwinfo
+unzip
+zip
+unzip
+unrar
+geany
+wipe
+
+###########################
+##   ArchISO Specific    ##
+###########################
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
 clonezilla
+crda
 ddrescue
 dhclient
 dialog
@@ -37,48 +115,42 @@ dnsmasq
 dnsutils
 dosfstools
 ethtool
-exfat-utils
 f2fs-tools
 fsarchiver
+gnu-netcat
 gpm
 gptfdisk
 grub
+haveged
 hdparm
+intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
 lftp
-lsscsi
-mtools
-ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 ntp
 openconnect
+os-prober
 partclone
 parted
 partimage
-ppp
 pptpclient
-refind-efi
+ppp
 rfkill
 rp-pppoe
 rsync
-sdparm
-sg3_utils
 smartmontools
 speedtouch
 sudo
 tcpdump
 testdisk
 usb_modeswitch
-vim-minimal
 vpnc
 wget
 wireless_tools
 wpa_actiond
 wvdial
 xl2tpd
-zd1211-firmware
