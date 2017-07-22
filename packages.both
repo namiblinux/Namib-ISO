@@ -74,17 +74,17 @@ gamin
 tumbler
 
 ## Applications
-clementine
 firefox
 gimp
 gparted
 libreoffice-still
 p7zip
 parcellite
+rhythmbox
+smplayer
 tracker
 dosfstools
 ntfs-3g
-vlc
 
 ## VirtualBox Guest
 virtualbox-guest-modules-arch
