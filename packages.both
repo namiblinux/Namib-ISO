@@ -1,4 +1,30 @@
-#ArchISO Base
+# XORG
+xorg-server
+xorg-xinit
+xorg-twm
+xterm
+
+# Sound
+alsa-utils
+
+# Video Drivers
+mesa
+xf86-video-vmware
+xf86-video-ati
+xf86-video-fbdev
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-openchrome
+
+# VirtualBox Guest
+virtualbox-guest-modules-arch
+virtualbox-guest-utils
+
+# Mate Desktop Environment
+mate
+mate-extra
+
+# ArchISO Base
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
