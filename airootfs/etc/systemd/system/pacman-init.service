@@ -8,7 +8,7 @@ After=etc-pacman.d-gnupg.mount
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/usr/bin/pacman-key --init
+ExecStart=/usr/bin/pacman-key --init archlinux
 ExecStart=/usr/bin/pacman-key --populate archlinux
 
 [Install]

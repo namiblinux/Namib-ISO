@@ -1,0 +1,5 @@
+## Dconf path
+[org/gnome/rhythmbox/rhythmdb]
+
+## Dconf key names and their corresponding values
+monitor-library=true

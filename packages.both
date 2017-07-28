@@ -2,106 +2,258 @@
 ## Namib Specific ##
 ####################
 
-## XORG Package
-xorg-server
-xorg-xinit
-xorg-twm
-xterm
-
-## Sound
-alsa-utils
-
-## Video Drivers
-mesa
-xf86-video-nouveau
-
-## Networking
-networkmanager
-networkmanager-dispatcher-ntpd
-network-manager-applet
-wireless_tools
-wpa_supplicant
-
-## system
+## Base System
+base
 base-devel
-xf86-input-keyboard
-xf86-input-synaptics
-xf86-input-vmmouse
-xf86-input-mouse
-laptop-detect
-lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+
+## Kernel
+linux-headers
+linux-firmware
+
+## Grub Bootloader
+grub
+os-prober
+
+## GPG Keys
+archlinux-keyring
+
+## Audio
+alsa-utils
+lib32-alsa-plugins
+pulseaudio
+pulseaudio-alsa
+
+## Common
+pacman-mirrorlist
+mkinitcpio-openswap
+tlp
+bash-completion
+bind-tools
+dosfstools
+haveged
+ntfs-3g
+btrfs-progs
+efibootmgr
+efitools
+pkgfile
+sudo
+usb_modeswitch
+wget
 mlocate
+upower
+encfs
+git
+screenfetch
 reflector
 
-## Permissions
-accountsservice
-polkit-gnome
-gnome-keyring
+## Firmware
+b43-fwcutter
+zd1211-firmware
+ipw2100-fw
+ipw2200-fw
 
-## Themes
-numix-gtk-theme
-arc-icon-theme
+## Archive Tools
+tar
+unzip
+gzip
+unrar
+xz
+
+## Network
+crda
+net-tools
+networkmanager
+whois
+wireless_tools
+wpa_actiond
 
 ## Fonts
 ttf-dejavu
 ttf-liberation
-cantarell-fonts
+ttf-linux-libertine
+ttf-bitstream-vera
+ttf-droid
+ttf-ubuntu-font-family
 
-## Environment
-bash-completion
-ncdu
-speedtest-cli
-pulseaudio
-pulseaudio-alsa
+## XORG Server
+xf86-input-synaptics
+xf86-video-fbdev
+xf86-video-vesa
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-openchrome
+xf86-video-ati
+xf86-video-vmware
+xorg-fonts
+xorg-server
+xorg-server-common
+xorg-xinit
+xorg-xkill
+xorg-xrdb
+mesa
+mesa-libgl
+mesa-vdpau
+lib32-mesa-libgl
+
+## Codecs
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+x264
+gstreamer-vaapi
+libdvdcss
+gst-libav
+
+## Common Desktop Environment
+accountsservice
+ffmpegthumbnailer
 pavucontrol
-volumeicon
-
-# GUI configuration
-mate
-mate-extra
-
-##File Management
-xdg-user-dirs
-gvfs
-gamin
-tumbler
-
-## Applications
-firefox
-gimp
+hunspell
+gucharmap
+gvfs-smb
 gparted
-libreoffice-still
-p7zip
-parcellite
-rhythmbox
-smplayer
-tracker
-dosfstools
-ntfs-3g
+samba
+xapps
 
-## VirtualBox Guest
+## Lightdm Login Manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+## Virtualbox Guest Additions
 virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
+## Mate Desktop Environment
+ultra-flat-icons-blue
+numix-gtk-theme
+arc-icon-theme
+file-roller
+gamin
+gnome-keyring
+gvfs-mtp
+light-locker
+network-manager-applet
+networkmanager-openvpn
+networkmanager-pptp
+gimp
+gimp-plugin-gmic
+polkit-gnome
+tumbler
+xdg-user-dirs-gtk
+mate
+mate-extra
+firefox
+gufw
+
+## Rhythmbox Music Player
+rhythmbox
+
+## Printer Support
+cups
+cups-pk-helper
+gsfonts
+splix
+system-config-printer
+gtk3-print-backends
+cups-pdf
+
+## From Namib Repository
+yaourt
+pamac-aur
+
+## Calamares Installer
+python-urllib3
+ckbcomp
+calamares
+
+## ALL BELOW NEED CHECK MANUALLY
+
+
+
+## XORG Package
+
+
+xorg-twm
+xterm
+
+## Sound
+
+
+## Video Drivers
+
+
+
+## Networking
+
+networkmanager-dispatcher-ntpd
+
+
+wpa_supplicant
+
+## system
+
+
+xf86-input-keyboard
+
+xf86-input-vmmouse
+xf86-input-mouse
+laptop-detect
+
+## Environment
+
+ncdu
+speedtest-cli
+
+
+volumeicon
+
+
+
+##File Management
+
+gvfs
+
+
+
+
+## Applications
+
+
+
+libreoffice-still
+p7zip
+parcellite
+smplayer
+tracker
+transmission-gtk
+
+
+
+
 ##packages for installer
 #hwinfo
-unzip
+
 zip
-unzip
-unrar
-geany
+
+#geany
 wipe
+
+
+
+
+
+
 
 ###########################
 ##   ArchISO Specific    ##
 ###########################
 arch-install-scripts
-b43-fwcutter
-btrfs-progs
+
+
 clonezilla
-crda
+
 ddrescue
 dhclient
 dialog
@@ -115,12 +267,11 @@ fsarchiver
 gnu-netcat
 gpm
 gptfdisk
-grub
-haveged
+
+
 hdparm
 intel-ucode
-ipw2100-fw
-ipw2200-fw
+
 irssi
 lftp
 nfs-utils
@@ -128,7 +279,7 @@ nilfs-utils
 ntfs-3g
 ntp
 openconnect
-os-prober
+
 partclone
 parted
 partimage
@@ -139,13 +290,12 @@ rp-pppoe
 rsync
 smartmontools
 speedtouch
-sudo
+
 tcpdump
 testdisk
-usb_modeswitch
+
 vpnc
-wget
-wireless_tools
-wpa_actiond
+
+
 wvdial
 xl2tpd
