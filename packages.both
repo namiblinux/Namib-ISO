@@ -102,7 +102,7 @@ xorg-xrdb
 xorg-twm
 xterm
 mesa
-mesa-libgl
+mesa-libglF
 mesa-vdpau
 lib32-mesa-libgl
 
@@ -113,7 +113,10 @@ gst-plugins-good
 gst-plugins-ugly
 x264
 gstreamer-vaapi
+libcdio
+libdvdread
 libdvdcss
+libdvdnav
 gst-libav
 
 ## Lightdm Login Manager
@@ -151,6 +154,7 @@ thunderbird
 transmission-gtk
 parcellite
 tracker
+brasero
 
 ## Common Desktop Environment
 accountsservice
@@ -211,7 +215,6 @@ gptfdisk
 hdparm
 intel-ucode
 irssi
-lftp
 nfs-utils
 nilfs-utils
 ntfs-3g
