@@ -45,6 +45,8 @@ encfs
 git
 screenfetch
 reflector
+laptop-detect
+wipe
 
 ## Firmware
 b43-fwcutter
@@ -58,14 +60,18 @@ unzip
 gzip
 unrar
 xz
+zip
+p7zip
 
 ## Network
 crda
 net-tools
 networkmanager
+networkmanager-dispatcher-ntpd
 whois
 wireless_tools
 wpa_actiond
+wpa_supplicant
 
 ## Fonts
 ttf-dejavu
@@ -76,6 +82,9 @@ ttf-droid
 ttf-ubuntu-font-family
 
 ## XORG Server
+xf86-input-keyboard
+xf86-input-vmmouse
+xf86-input-mouse
 xf86-input-synaptics
 xf86-video-fbdev
 xf86-video-vesa
@@ -90,6 +99,8 @@ xorg-server-common
 xorg-xinit
 xorg-xkill
 xorg-xrdb
+xorg-twm
+xterm
 mesa
 mesa-libgl
 mesa-vdpau
@@ -104,17 +115,6 @@ x264
 gstreamer-vaapi
 libdvdcss
 gst-libav
-
-## Common Desktop Environment
-accountsservice
-ffmpegthumbnailer
-pavucontrol
-hunspell
-gucharmap
-gvfs-smb
-gparted
-samba
-xapps
 
 ## Lightdm Login Manager
 lightdm
@@ -146,6 +146,26 @@ mate
 mate-extra
 firefox
 gufw
+libreoffice-still
+thunderbird
+transmission-gtk
+parcellite
+tracker
+
+## Common Desktop Environment
+accountsservice
+ffmpegthumbnailer
+pavucontrol
+hunspell
+gucharmap
+gvfs
+gvfs-smb
+gparted
+samba
+xapps
+ncdu
+speedtest-cli
+volumeicon
 
 ## Rhythmbox Music Player
 rhythmbox
@@ -162,98 +182,19 @@ cups-pdf
 ## From Namib Repository
 yaourt
 pamac-aur
+gnome-mpv
+rhythmbox-plugin-tray-icon-git
 
 ## Calamares Installer
 python-urllib3
 ckbcomp
 calamares
 
-## ALL BELOW NEED CHECK MANUALLY
-
-
-
-## XORG Package
-
-
-xorg-twm
-xterm
-
-## Sound
-
-
-## Video Drivers
-
-
-
-## Networking
-
-networkmanager-dispatcher-ntpd
-
-
-wpa_supplicant
-
-## system
-
-
-xf86-input-keyboard
-
-xf86-input-vmmouse
-xf86-input-mouse
-laptop-detect
-
-## Environment
-
-ncdu
-speedtest-cli
-
-
-volumeicon
-
-
-
-##File Management
-
-gvfs
-
-
-
-
-## Applications
-
-
-
-libreoffice-still
-p7zip
-parcellite
-smplayer
-tracker
-transmission-gtk
-
-
-
-
-##packages for installer
-#hwinfo
-
-zip
-
-#geany
-wipe
-
-
-
-
-
-
-
-###########################
-##   ArchISO Specific    ##
-###########################
+######################
+## ArchISO Specific ##
+######################
 arch-install-scripts
-
-
 clonezilla
-
 ddrescue
 dhclient
 dialog
@@ -267,11 +208,8 @@ fsarchiver
 gnu-netcat
 gpm
 gptfdisk
-
-
 hdparm
 intel-ucode
-
 irssi
 lftp
 nfs-utils
@@ -279,7 +217,6 @@ nilfs-utils
 ntfs-3g
 ntp
 openconnect
-
 partclone
 parted
 partimage
@@ -290,12 +227,8 @@ rp-pppoe
 rsync
 smartmontools
 speedtouch
-
 tcpdump
 testdisk
-
 vpnc
-
-
 wvdial
 xl2tpd

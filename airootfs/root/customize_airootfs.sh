@@ -37,7 +37,7 @@ function setDefaultsFunc() {
 function initkeysFunc() {
 	## Setup Pacman
 	pacman-key --init archlinux
-	pacman-key --populate archlinu
+	pacman-key --populate archlinux
 }
 
 function fixPermissionsFunc() {
@@ -153,7 +153,7 @@ function upgradeSystem() {
 
 
 initFunc
-#initkeysFunc
+initkeysFunc
 localeGenFunc
 setTimeZoneAndClockFunc
 editOrCreateConfigFilesFunc
@@ -167,6 +167,6 @@ enableServicesFunc
 fontFix
 fixWifiFunc
 fixPermissionsFunc
-#initkeysFunc
+initkeysFunc
 upgradeSystem
 dconf update ## Apply dconf settings
