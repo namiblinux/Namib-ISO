@@ -100,9 +100,8 @@ xorg-xinit
 xorg-xkill
 xorg-xrdb
 xorg-twm
-xterm
 mesa
-mesa-libglF
+mesa-libgl
 mesa-vdpau
 lib32-mesa-libgl
 
@@ -182,6 +181,7 @@ splix
 system-config-printer
 gtk3-print-backends
 cups-pdf
+hplip
 
 ## From Namib Repository
 yaourt
