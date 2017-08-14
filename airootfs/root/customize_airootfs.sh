@@ -55,6 +55,7 @@ function enableServicesFunc() {
 	systemctl enable org.cups.cupsd.service
 	systemctl enable avahi-daemon.service
 	systemctl enable vboxservice.service
+	systemctl enable bluetooth.service
 	systemctl enable haveged
 	systemctl enable systemd-networkd.service
 	systemctl enable systemd-resolved.service
