@@ -152,6 +152,10 @@ function upgradeSystem() {
 	pacman -Syuu --noconfirm	
 }
 
+function syncPacman() {
+	pacman -Syy	
+}
+
 
 initFunc
 initkeysFunc
@@ -169,5 +173,6 @@ fontFix
 fixWifiFunc
 fixPermissionsFunc
 initkeysFunc
+syncPacman
 upgradeSystem
 dconf update ## Apply dconf settings
