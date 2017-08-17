@@ -7,8 +7,8 @@ base
 base-devel
 
 ## Kernel
-linux-lts
-linux-lts-headers
+linux
+linux-headers
 linux-firmware
 
 ## Grub Bootloader
@@ -75,6 +75,7 @@ wpa_actiond
 wpa_supplicant
 blueman
 pulseaudio-bluetooth
+bluez
 bluez-utils
 
 ## Fonts
@@ -185,6 +186,7 @@ splix
 system-config-printer
 gtk3-print-backends
 cups-pdf
+python-pyqt5
 hplip
 
 ## From Namib Repository

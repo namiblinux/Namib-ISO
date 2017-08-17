@@ -78,13 +78,10 @@ function enableCalamaresAutostartFunc() {
 	mkdir -p /home/liveuser/.config/autostart
 	mkdir -p /home/liveuser/Desktop
 	ln -s /usr/share/applications/calamares.desktop /home/liveuser/.config/autostart/calamares.desktop
-	##ln -s /usr/share/applications/liveusersync.desktop /home/liveuser/.config/autostart/liveusersync.desktop
 	ln -s /usr/share/applications/calamares.desktop /home/liveuser/Desktop/calamares.desktop
 	chmod +rx /home/liveuser/.config/autostart/calamares.desktop
-	##chmod +rx /home/liveuser/.config/autostart/liveusersync.desktop
 	chmod +rx /home/liveuser/Desktop/calamares.desktop
 	chown liveuser /home/liveuser/.config/autostart/calamares.desktop
-	##chown liveuser /home/liveuser/.config/autostart/liveusersync.desktop
 	chown liveuser /home/liveuser/Desktop/calamares.desktop
 	chown liveuser /home/liveuser/.config/
 	chown liveuser /home/liveuser/Desktop/
