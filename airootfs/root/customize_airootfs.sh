@@ -51,7 +51,6 @@ function fixPermissionsFunc() {
 }
 
 function enableServicesFunc() {
-	systemctl enable pacman-init.service lightdm.service choose-mirror.service
 	systemctl enable org.cups.cupsd.service
 	systemctl enable avahi-daemon.service
 	systemctl enable vboxservice.service
@@ -60,17 +59,8 @@ function enableServicesFunc() {
 	systemctl enable systemd-networkd.service
 	systemctl enable systemd-resolved.service
 	systemctl -fq enable NetworkManager.service
-	systemctl enable reflector.service 
 	systemctl mask systemd-rfkill@.service
 	systemctl set-default graphical.target
-}
-
-function enableSudoFunc() {
-	chmod 750 /etc/sudoers.d
-	chmod 440 /etc/sudoers.d/g_wheel
-	chown -R root /etc/sudoers.d
-	chmod -R 755 /etc/sudoers.d
-	echo "Enabled Sudo"
 }
 
 function enableCalamaresAutostartFunc() {
@@ -132,22 +122,6 @@ function editOrCreateConfigFilesFunc() {
 	sed -i 's/#\(Storage=\)auto/\1volatile/' /etc/systemd/journald.conf
 }
 
-function renameOSFunc() {
-	## Name Namib
-    	osReleasePath='/usr/lib/os-release'
-    	rm -rf $osReleasePath
-    	touch $osReleasePath
-    	echo 'NAME="'${OSNAME}'"' >> $osReleasePath
-    	echo 'ID=namib' >> $osReleasePath
-    	echo 'PRETTY_NAME="'${OSNAME}'"' >> $osReleasePath
-    	echo 'ANSI_COLOR="0;35"' >> $osReleasePath
-    	echo 'HOME_URL="https://namib.meerkat.tk"' >> $osReleasePath
-    	echo 'SUPPORT_URL="https://forum.meerkat.tk"' >> $osReleasePath
-    	echo 'BUG_REPORT_URL="https://forum.meerkat.tk"' >> $osReleasePath
-
-    	arch=`uname -m`
-}
-
 function upgradeSystem() {
 	pacman -Syuu --noconfirm	
 }
@@ -169,9 +143,7 @@ setTimeZoneAndClockFunc
 editOrCreateConfigFilesFunc
 configRootUserFunc
 createLiveUserFunc
-renameOSFunc
 setDefaultsFunc
-enableSudoFunc
 enableCalamaresAutostartFunc
 enableServicesFunc
 fontFix
