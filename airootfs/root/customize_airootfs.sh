@@ -36,6 +36,8 @@ function setDefaultsFunc() {
 
 function initkeysFunc() {
 	## Setup Pacman
+	pacman-key --init namib
+	pacman-key --populate namib
 	pacman-key --init archlinux
 	pacman-key --populate archlinux
 }

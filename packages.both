@@ -208,6 +208,7 @@ rhythmbox-plugin-tray-icon-git
 namib-wallpapers
 namib-config-system
 namib-base-skel
+namib-keyring
 
 ## Calamares Installer
 python-urllib3
