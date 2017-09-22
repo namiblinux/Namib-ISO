@@ -132,10 +132,6 @@ function syncPacman() {
 	pacman -Syy	
 }
 
-function iconCache() {
-	gtk-update-icon-cache -f -q '/usr/share/icons/Arc'	
-}
-
 
 
 initFunc
@@ -155,4 +151,3 @@ initkeysFunc
 syncPacman
 upgradeSystem
 dconf update ## Apply dconf settings
-iconCache
