@@ -209,6 +209,7 @@ namib-wallpapers
 namib-config-system
 namib-base-skel
 namib-keyring
+namib-mirrolist
 
 ## Calamares Installer
 python-urllib3
