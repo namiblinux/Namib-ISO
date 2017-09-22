@@ -199,6 +199,11 @@ gtk3-print-backends
 cups-pdf
 python-pyqt5
 hplip
+foomatic-db
+foomatic-db-gutenprint-ppds
+foomatic-db-nonfree
+foomatic-db-nonfree-ppds
+foomatic-db-ppds
 
 ## From Namib Repository
 yaourt
