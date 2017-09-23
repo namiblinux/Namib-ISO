@@ -133,6 +133,19 @@ virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
 ## Mate Desktop Environment
+caja
+marco
+mate-control-center
+mate-desktop
+mate-icon-theme
+mate-menus
+mate-notification-daemon
+mate-panel
+mate-polkit
+mate-session-manager
+mate-settings-daemon
+mate-themes
+mate-user-guide
 numix-gtk-theme
 arc-icon-theme
 file-roller
@@ -148,7 +161,6 @@ gimp-plugin-gmic
 polkit-gnome
 tumbler
 xdg-user-dirs-gtk
-mate
 mate-extra
 firefox
 gufw
@@ -187,12 +199,22 @@ gtk3-print-backends
 cups-pdf
 python-pyqt5
 hplip
+foomatic-db
+foomatic-db-gutenprint-ppds
+foomatic-db-nonfree
+foomatic-db-nonfree-ppds
+foomatic-db-ppds
 
 ## From Namib Repository
 yaourt
 pamac-aur
 gnome-mpv
 rhythmbox-plugin-tray-icon-git
+namib-wallpapers
+namib-config-system
+namib-base-skel
+namib-keyring
+namib-mirrorlist
 
 ## Calamares Installer
 python-urllib3
@@ -240,3 +262,4 @@ testdisk
 vpnc
 wvdial
 xl2tpd
+
