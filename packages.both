@@ -215,6 +215,9 @@ namib-config-system
 namib-base-skel
 namib-keyring
 namib-mirrorlist
+brisk-menu
+kcm-nsm
+
 
 ## Calamares Installer
 python-urllib3
