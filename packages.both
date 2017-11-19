@@ -130,7 +130,7 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 
 ## Virtualbox Guest Additions
-virtualbox-guest-modules-arch
+virtualbox-guest-dkms
 virtualbox-guest-utils
 
 ## Mate Desktop Environment
