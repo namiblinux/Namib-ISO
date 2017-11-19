@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usb/bin/calamares_polkit
+/usr/bin/calamares_polkit
