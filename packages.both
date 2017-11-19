@@ -48,6 +48,7 @@ screenfetch
 reflector
 laptop-detect
 wipe
+lsb-release
 
 ## Firmware
 b43-fwcutter
