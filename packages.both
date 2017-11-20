@@ -48,6 +48,7 @@ screenfetch
 reflector
 laptop-detect
 wipe
+lsb-release
 
 ## Firmware
 b43-fwcutter
@@ -129,7 +130,7 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 
 ## Virtualbox Guest Additions
-virtualbox-guest-modules-arch
+virtualbox-guest-dkms
 virtualbox-guest-utils
 
 ## Mate Desktop Environment
@@ -215,6 +216,11 @@ namib-config-system
 namib-base-skel
 namib-keyring
 namib-mirrorlist
+brisk-menu
+kcm-nsm
+nhwd
+nhwd-db
+
 
 ## Calamares Installer
 python-urllib3
