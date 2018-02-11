@@ -218,7 +218,7 @@ make_prepare() {
 
 # Build ISO
 make_iso() {
-    out_filename="namib-$(date +%y%m)_x86_64.iso"
+    out_filename="namib-mate-$(date +%y%m)_x86_64.iso"
     mkarchiso ${verbose} -w "${work_dir}" -D "${install_dir}" -L "${iso_label}" -o "${out_dir}" iso $out_filename
     
     echo "finished!"
