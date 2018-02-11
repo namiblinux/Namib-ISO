@@ -133,22 +133,7 @@ lightdm-gtk-greeter-settings
 virtualbox-guest-dkms
 virtualbox-guest-utils
 
-## Mate Desktop Environment
-caja
-marco
-mate-control-center
-mate-desktop
-mate-icon-theme
-mate-menus
-mate-notification-daemon
-mate-panel
-mate-polkit
-mate-session-manager
-mate-settings-daemon
-mate-themes
-mate-user-guide
-numix-gtk-theme
-arc-icon-theme
+## Software
 file-roller
 gamin
 gnome-keyring
@@ -162,7 +147,6 @@ gimp-plugin-gmic
 polkit-gnome
 tumbler
 xdg-user-dirs-gtk
-mate-extra
 firefox
 gufw
 libreoffice-still
@@ -208,7 +192,7 @@ foomatic-db-nonfree-ppds
 foomatic-db-ppds
 
 ## From Namib Repository
-yaourt
+trizen
 pamac-aur
 gnome-mpv
 rhythmbox-plugin-tray-icon-git

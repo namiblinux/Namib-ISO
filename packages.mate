@@ -1,0 +1,22 @@
+## Mate Specific
+caja
+marco
+mate-control-center
+mate-desktop
+mate-icon-theme
+mate-menus
+mate-notification-daemon
+mate-panel
+mate-polkit
+mate-session-manager
+mate-settings-daemon
+mate-themes
+mate-user-guide
+mate-extra
+
+## Theme
+numix-gtk-theme
+arc-icon-theme
+
+## Namib Specific
+namib-mate-settings
