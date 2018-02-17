@@ -171,6 +171,10 @@ ncdu
 speedtest-cli
 volumeicon
 
+## Theme
+numix-gtk-theme
+arc-icon-theme
+
 ## Rhythmbox Music Player
 rhythmbox
 

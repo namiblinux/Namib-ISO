@@ -37,9 +37,5 @@ xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 
-## Theme
-numix-gtk-theme
-arc-icon-theme
-
 ## Namib Specific
 namib-xfce-settings
