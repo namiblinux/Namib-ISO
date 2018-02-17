@@ -1,0 +1,53 @@
+## Kde Specific
+bluedevil
+breeze
+breeze-gtk
+discover
+drkonqi
+kactivitymanagerd
+kde-cli-tools
+kde-gtk-config
+kdecoration
+kdeplasma-addons
+kgamma5
+khotkeys
+kinfocenter
+kmenuedit
+knetattach
+kscreen
+kscreenlocker
+ksshaskpass
+ksysguard
+kuiserver
+kwallet-pam
+kwayland-integration
+kwin
+kwrited
+libkscreen
+libksysguard
+milou
+oxygen
+plasma-desktop
+plasma-integration
+plasma-nm
+plasma-pa
+plasma-sdk
+plasma-vault
+plasma-workspace
+polkit-kde-agent
+powerdevil
+sddm-kcm
+systemsettings
+user-manager
+xdg-desktop-portal-kde
+kde-applications
+
+## Theme
+numix-kde-theme-git
+arc-icon-theme
+
+## Namib Specific
+namib-kde-settings
+
+## Other
+pamac-tray-appindicator
