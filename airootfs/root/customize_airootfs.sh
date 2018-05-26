@@ -32,6 +32,10 @@ function setDefaultsFunc() {
 	export _EDITOR=nano
 	echo "EDITOR=${_EDITOR}" >> /etc/environment
 	echo "EDITOR=${_EDITOR}" >> /etc/profile
+
+	## Set QT5CT
+	echo "export QT_QPA_PLATFORMTHEME=qt5ct" >> /etc/profile
+	echo "export QT_AUTO_SCREEN_SCALE_FACTOR=0" >> /etc/profile
 }
 
 function initkeysFunc() {

@@ -78,6 +78,8 @@ blueman
 pulseaudio-bluetooth
 bluez
 bluez-utils
+bluez-firmware
+broadcom-wl-dkms
 
 ## Fonts
 ttf-dejavu
@@ -123,6 +125,8 @@ libdvdread
 libdvdcss
 libdvdnav
 gst-libav
+flashplugin
+lib32-flashplugin
 
 ## Lightdm Login Manager
 lightdm
@@ -159,6 +163,7 @@ brasero
 ## Common Desktop Environment
 accountsservice
 ffmpegthumbnailer
+ffmpegthumbs
 pavucontrol
 hunspell
 gucharmap
@@ -174,6 +179,12 @@ volumeicon
 ## Theme
 numix-gtk-theme
 arc-icon-theme
+
+## Theme engine
+qt5-styleplugins
+gtk-engines
+gtk-engine-murrine
+qt5ct
 
 ## Rhythmbox Music Player
 rhythmbox
@@ -195,6 +206,16 @@ foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
 
+## Language pack
+qt5-translations
+firefox-i18n-en-us
+thunderbird-i18n-en-us
+aspell-en
+gimp-help-us
+hunspell-en_US
+hunspell-en
+hyphen-en
+
 ## From Namib Repository
 trizen
 pamac-aur
@@ -209,7 +230,6 @@ brisk-menu
 kcm-nsm
 nhwd
 nhwd-db
-
 
 ## Calamares Installer
 python-urllib3
