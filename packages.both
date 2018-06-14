@@ -80,6 +80,7 @@ bluez
 bluez-utils
 bluez-firmware
 broadcom-wl-dkms
+b43-firmware
 
 ## Fonts
 ttf-dejavu
@@ -159,6 +160,11 @@ transmission-gtk
 parcellite
 tracker
 brasero
+redshift
+timeshift
+vlc
+hexchat
+flatpak
 
 ## Common Desktop Environment
 accountsservice
@@ -167,7 +173,7 @@ ffmpegthumbs
 pavucontrol
 hunspell
 gucharmap
-gvfs
+gvfse
 gvfs-smb
 gparted
 samba
@@ -179,6 +185,8 @@ volumeicon
 ## Theme
 numix-gtk-theme
 arc-icon-theme
+materia-namib-gtk-theme
+papirus-icon-theme
 
 ## Theme engine
 qt5-styleplugins
@@ -219,7 +227,6 @@ hyphen-en
 ## From Namib Repository
 trizen
 pamac-aur
-gnome-mpv
 rhythmbox-plugin-tray-icon-git
 namib-wallpapers
 namib-config-system

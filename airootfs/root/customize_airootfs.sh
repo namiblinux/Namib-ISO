@@ -64,6 +64,7 @@ function enableServicesFunc() {
 	systemctl enable haveged
 	systemctl enable systemd-networkd.service
 	systemctl enable systemd-resolved.service
+	systemctl enable systemd-timesyncd
 	systemctl -fq enable NetworkManager.service
 	systemctl mask systemd-rfkill@.service
 	systemctl set-default graphical.target
