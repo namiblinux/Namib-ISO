@@ -279,7 +279,6 @@ rfkill
 rp-pppoe
 rsync
 smartmontools
-speedtouch
 tcpdump
 testdisk
 vpnc
