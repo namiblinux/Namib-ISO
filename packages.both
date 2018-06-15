@@ -187,6 +187,7 @@ numix-gtk-theme
 arc-icon-theme
 materia-namib-gtk-theme
 papirus-icon-theme
+xcursor-breeze
 
 ## Theme engine
 qt5-styleplugins
