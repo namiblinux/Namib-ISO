@@ -2,7 +2,6 @@
 adwaita-icon-theme
 baobab
 eog
-epiphany
 evince
 gdm
 gnome-backgrounds
@@ -43,16 +42,30 @@ networkmanager
 rygel
 simple-scan
 sushi
-totem
 tracker-miners
 tracker
 vino
 xdg-user-dirs-gtk
 yelp
-gnome-extra
 telepathy
 shotwell
 gnome-tweak-tool
+
+brasero
+dconf-editor
+gedit-code-assistance
+gnome-code-assistance
+gnome-devel-docsgnome-kiotski
+gnome-multi-writer
+gnome-nettool
+gnome-sound-recorder
+gnome-tweaks
+gnome-usage
+gnome-weather
+nautilus-sendto
+sysprof
+
+
 
 ## Namib Specific
 namib-gnome-settings
