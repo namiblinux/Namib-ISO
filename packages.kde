@@ -30,7 +30,6 @@ plasma-desktop
 plasma-integration
 plasma-nm
 plasma-pa
-plasma-sdk
 plasma-vault
 plasma-workspace
 polkit-kde-agent
@@ -42,7 +41,6 @@ xdg-desktop-portal-kde
 plasma-workspace-wallpapers
 
 akonadi-calendar-tools
-akonadi-import-wizard
 ark
 audiocd-kio
 dolphin
@@ -63,7 +61,6 @@ kdesdk-thumbnailers
 kdialog
 keditbookmarks
 kfind
-kget
 khelpcenter
 kio-extras
 konsole
@@ -76,16 +73,6 @@ poxml
 print-manager
 signon-kwallet-extension
 spectacle
-telepathy-kde-accounts-kcm
-telepathy-kde-approver
-telepathy-kde-auth-handler
-telepathy-kde-call-ui
-telepathy-kde-common-internals
-telepathy-kde-desktop-applets
-telepathy-kde-filetransfer-handler
-telepathy-kde-integration-module
-telepathy-kde-send-file
-telepathy-kde-text-ui
 zeroconf-ioslave
 
 ## Theme
