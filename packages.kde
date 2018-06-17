@@ -48,7 +48,6 @@ audiocd-kio
 dolphin
 dolphin-plugins
 ffmpegthumbs
-grantlee-editor
 gwenview
 kaccounts-integration
 kaccounts-providers
@@ -56,15 +55,11 @@ kamera
 kate
 kcalc
 kcron
-kde-dev-scripts
-kde-dev-utils
 kdebugsettings
 kdegraphics-mobipocket
 kdenetwork-filesharing
-kdepim-addons
 kdesdk-kioslaves
 kdesdk-thumbnailers
-kdf
 kdialog
 keditbookmarks
 kfind
@@ -74,11 +69,9 @@ kio-extras
 konsole
 kross-interpreters
 ksystemlog
-ktuberling
 kwalletmanager
 mbox-importer
 okular
-pim-data-exporter
 poxml
 print-manager
 signon-kwallet-extension
@@ -88,8 +81,6 @@ telepathy-kde-approver
 telepathy-kde-auth-handler
 telepathy-kde-call-ui
 telepathy-kde-common-internals
-telepathy-kde-contact-list
-telepathy-kde-contact-runner
 telepathy-kde-desktop-applets
 telepathy-kde-filetransfer-handler
 telepathy-kde-integration-module
