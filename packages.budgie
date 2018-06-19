@@ -7,9 +7,7 @@ gdm
 budgie-desktop
 gnome-backgrounds
 gnome-calculator
-gnome-calendar
 gnome-color-manager
-gnome-contacts
 gnome-control-center
 gnome-dictionary
 gnome-disk-utility
@@ -57,10 +55,10 @@ gnome-devel-docs
 gnome-multi-writer
 gnome-nettool
 gnome-sound-recorder
-gnome-tweaks
 gnome-usage
 gnome-weather
 nautilus-sendto
 
 ## Namib Specific
+namib-budgie-settings
 xcursor-breeze
