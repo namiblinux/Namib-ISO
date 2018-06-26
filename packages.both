@@ -55,6 +55,7 @@ b43-fwcutter
 zd1211-firmware
 ipw2100-fw
 ipw2200-fw
+intel-ucode
 
 ## Archive Tools
 tar
@@ -89,6 +90,7 @@ ttf-linux-libertine
 ttf-bitstream-vera
 ttf-droid
 ttf-ubuntu-font-family
+ttf-freefont
 
 ## XORG Server
 xf86-input-keyboard
@@ -154,7 +156,7 @@ tumbler
 xdg-user-dirs-gtk
 firefox
 gufw
-libreoffice-still
+libreoffice-fresh
 thunderbird
 transmission-gtk
 parcellite
@@ -224,6 +226,7 @@ gimp-help-en
 hunspell-en_US
 hunspell-en
 hyphen-en
+libreoffice-fresh-en-gb
 
 ## From Namib Repository
 trizen
