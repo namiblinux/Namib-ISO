@@ -52,7 +52,6 @@ lsb-release
 
 ## Firmware
 b43-fwcutter
-zd1211-firmware
 ipw2100-fw
 ipw2200-fw
 intel-ucode
