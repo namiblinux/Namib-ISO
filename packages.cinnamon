@@ -1,33 +1,19 @@
 ## Gnome Specific
 cinnamon
+cinnamon-translation
 xed
 xviewer
-xviewer-plugin
+xviewer-plugins
 pix
 xreader
 
 adwaita-icon-theme
-baobab
-eog
-evince
-gdm
 gnome-backgrounds
 gnome-calculator
-gnome-color-manager
-gnome-control-center
-gnome-dictionary
-gnome-disk-utility
-gnome-font-viewer
 gnome-keyring
-gnome-logs
 gnome-screenshot
 gnome-system-monitor
 gnome-terminal
-gnome-themes-standard
-gnome-user-docs
-gnome-user-share
-grilo-plugins
-gucharmap
 gvfs
 gvfs-afc
 gvfs-goa
@@ -36,26 +22,11 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-mousetweaks
-mutter
-nautilus
 networkmanager
-rygel
 simple-scan
-sushi
-tracker-miners
-tracker
-vino
 xdg-user-dirs-gtk
-yelp
-shotwell
-
 brasero
-gnome-multi-writer
-gnome-nettool
-gnome-sound-recorder
-gnome-usage
-nautilus-sendto
 
 ## Namib Specific
+namib-cinnamon-settings
 xcursor-breeze
