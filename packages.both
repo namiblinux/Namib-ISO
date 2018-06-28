@@ -235,7 +235,7 @@ namib-base-skel
 namib-keyring
 namib-mirrorlist
 brisk-menu
-kcm-nsm
+namib-settings-manager
 nhwd
 nhwd-db
 namib-welcome

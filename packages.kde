@@ -86,3 +86,5 @@ namib-kde-settings
 ## Other
 pamac-tray-appindicator
 plasma5-applets-redshift-control
+namib-settings-manager-knotifier
+namib-settings-manager-kcm
