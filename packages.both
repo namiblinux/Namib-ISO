@@ -234,7 +234,6 @@ namib-config-system
 namib-base-skel
 namib-keyring
 namib-mirrorlist
-brisk-menu
 namib-settings-manager
 nhwd
 nhwd-db
