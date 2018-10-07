@@ -129,7 +129,6 @@ libdvdcss
 libdvdnav
 gst-libav
 flashplugin
-lib32-flashplugin
 
 ## Lightdm Login Manager
 lightdm
@@ -222,7 +221,6 @@ thunderbird-i18n-en-us
 aspell-en
 gimp-help-en
 hunspell-en_US
-hunspell-en
 hyphen-en
 libreoffice-fresh-en-gb
 
