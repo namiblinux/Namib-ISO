@@ -38,6 +38,8 @@ xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfce4-artwork
 
+qt5ct
+
 ## Namib Specific
 namib-xfce-settings
 xcursor-breeze

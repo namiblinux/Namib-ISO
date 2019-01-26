@@ -62,6 +62,8 @@ gnome-usage
 gnome-weather
 nautilus-sendto
 
+qt5ct
+
 ## Namib Specific
 gnome-menus
 gnome-shell-extension-dash-to-panel

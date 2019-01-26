@@ -27,6 +27,8 @@ simple-scan
 xdg-user-dirs-gtk
 brasero
 
+qt5ct
+
 ## Namib Specific
 namib-cinnamon-settings
 xcursor-breeze
