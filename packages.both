@@ -72,7 +72,6 @@ networkmanager
 networkmanager-dispatcher-ntpd
 whois
 wireless_tools
-wpa_actiond
 wpa_supplicant
 blueman
 pulseaudio-bluetooth
@@ -89,7 +88,7 @@ ttf-linux-libertine
 ttf-bitstream-vera
 ttf-droid
 ttf-ubuntu-font-family
-ttf-freefont
+gnu-free-fonts
 
 ## XORG Server
 xf86-input-keyboard
@@ -141,7 +140,6 @@ virtualbox-guest-utils
 
 ## Software
 file-roller
-gamin
 gnome-keyring
 gvfs-mtp
 light-locker
