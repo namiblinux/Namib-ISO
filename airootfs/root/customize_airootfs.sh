@@ -134,6 +134,11 @@ function syncPacman() {
 	pacman -Syy	
 }
 
+function kernelInstall() {
+	pacman -Syy linux
+	mkinitcpio -p linux
+}
+
 
 
 initFunc
@@ -152,4 +157,5 @@ fixPermissionsFunc
 initkeysFunc
 syncPacman
 upgradeSystem
+kernelInstall
 dconf update ## Apply dconf settings
