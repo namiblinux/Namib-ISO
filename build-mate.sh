@@ -8,7 +8,7 @@ pacman-key --populate
 
 set -e -u
 
-iso_name=namib
+iso_name=namib-mate
 iso_label="NAMIB$(date +%y%m)"
 iso_publisher="Namib GNU/Linux <https://www.namiblinux.org/>"
 iso_application="Namib GNU/Linux Live/Rescue CD"
