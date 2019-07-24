@@ -135,7 +135,7 @@ function syncPacman() {
 }
 
 function kernelInstall() {
-	pacman -Syy --noconfirm linux
+	pacman --noconfirm -Syy linux
 	mkinitcpio -p linux
 }
 
