@@ -108,6 +108,7 @@ xorg-server-common
 xorg-xinit
 xorg-xkill
 xorg-xrdb
+xorg-xinput
 xorg-twm
 mesa
 mesa-libgl
